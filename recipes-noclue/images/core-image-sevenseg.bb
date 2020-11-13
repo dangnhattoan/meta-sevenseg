@@ -3,7 +3,7 @@ require recipes-core/images/core-image-minimal.bb
 DESCRIPTION = "An image capable of allowing a raspberrypi4 to boot and suitable for development work."
 
 IMAGE_INSTALL += " \
-	kernel-modules \
+	kernel-module-praseodymium \
 	mod-noclue \
 	"
 
