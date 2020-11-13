@@ -4,6 +4,7 @@ DESCRIPTION = "An image capable of allowing a raspberrypi4 to boot and suitable 
 
 IMAGE_INSTALL += " \
 	kernel-modules \
+	mod-noclue \
 	"
 
 SPLASH = "psplash-raspberrypi"
