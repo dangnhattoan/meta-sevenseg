@@ -1,6 +1,6 @@
 # RaspberryPi BSP default providers
 
-PREFERRED_PROVIDER_virtual/kernel ?= "linux-stable"
+PREFERRED_PROVIDER_virtual/kernel ?= "linux-rt"
 PREFERRED_PROVIDER_virtual/xserver ?= "xserver-xorg"
 PREFERRED_PROVIDER_virtual/egl ?= "${@bb.utils.contains("MACHINE_FEATURES", "vc4graphics", "mesa", "userland", d)}"
 PREFERRED_PROVIDER_virtual/libgles2 ?= "${@bb.utils.contains("MACHINE_FEATURES", "vc4graphics", "mesa", "userland", d)}"
