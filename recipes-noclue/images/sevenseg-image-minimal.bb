@@ -12,5 +12,3 @@ SPLASH = "psplash-raspberrypi"
 IMAGE_FEATURES += "dev-pkgs ssh-server-dropbear splash"
 
 IMAGE_INSTALL_append = " bc"
-
-ENABLE_UART = "1"
